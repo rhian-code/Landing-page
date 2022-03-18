@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Righteous&display=swap');
+:root{
+    --gradient-button:linear-gradient(45deg, rgb(92, 92, 92) 5%, rgb(255, 255, 255) 90%);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Poppins';
+}
+body{
+    background: rgb(233,39,124);
+    background: linear-gradient(45deg, rgba(233,39,124,1) 5%, rgba(32,190,255,1) 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    width: 80%;
+    height: 120px;
+}
+.header-whapper{
+    display: none;
+}
+.header-whapper nav{
+    
+}
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.menu-item{
+   
+}
+.menu-item a:hover{
+    border: 2px solid white ;
+    border-radius: 50px;
+    padding: 5px;
+    transition: 600ms;
+   
+
+}
+p,h1{
+    cursor: default;
+}
+
+a{
+    font-family: 'poppins';
+    font-weight: 500;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 3px;
+    border-radius: 50px;
+}
+.menu{
+    margin:0px 10px;
+    color: white;
+}
+.duo-item button{
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+    padding: 5px;
+    border-radius: 50px;
+    width: 150px;
+    cursor: pointer;
+}
+.duo-item button:hover{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    transition: 600ms;
+}
+.homepage{
+    width: 80%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.duo-item{
+   color: white;
+   width: 500px;
+   margin:0px 20px;
+}
+.title-one{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+picture{
+    text-align: center;
+}
+picture img{
+    width: 350px;
+    
+}
+section{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 0px;
+}
+.card{
+    background: rgb(233,39,124);
+    background: linear-gradient(45deg, rgb(13, 130, 255) 5%, rgba(233,39,124,1) 90%);
+    width: 300px;
+    height: 250px;
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px; 
+    color: white;
+    gap: 10px;
+
+}
+.profile{
+    width: 80%;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+}
+.container-profile{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+footer{
+    background-color: rgb(10, 10, 10);
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .duo-item{
+        width: 350px;
+    }
+    section{
+        flex-wrap: wrap ;
+    }
+
+}
+@media only screen and (max-width: 490px) {
+    .homepage{
+        height: 700px;
+    }
+
+    .header-whapper{
+        width: 80%;
+        display: flex;
+        
+    }
+    .header-whapper nav{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .container{
+        width: 350px;
+    }
+    .container-profile{
+        width: 350px;
+    }
+    .container-menu{
+        display: none;
+    }
+    picture img{
+        display:none;
+        width: 300px;
+    }
+    
+}
+@media only screen and (max-width: 380px) {
+    
+}
