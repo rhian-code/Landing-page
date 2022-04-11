@@ -1,3 +1,3 @@
 # MyGitSoft
  
-Iniciando meus projs no GitHub
+Iniciando meus projetos no GitHub
