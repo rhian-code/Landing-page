@@ -24,9 +24,6 @@ header{
 .header-whapper{
     display: none;
 }
-.header-whapper nav{
-    
-}
 .container-header{
     display: flex;
     justify-content: space-between;
@@ -38,9 +35,7 @@ nav ul{
     gap: 20px;
     list-style: none;
 }
-.menu-item{
-   
-}
+
 .menu-item a:hover{
     border: 2px solid white ;
     border-radius: 50px;
