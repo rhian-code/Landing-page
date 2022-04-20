@@ -120,8 +120,6 @@ section{
     padding: 10px 0px;
 }
 .card{
-    background: rgb(233,39,124);
-    background: linear-gradient(45deg, rgb(13, 130, 255) 5%, rgba(233,39,124,1) 90%);
     width: 300px;
     height: 250px;
     padding: 10px; 
@@ -130,7 +128,7 @@ section{
     justify-content: center;
     align-items: center;
     border-radius: 50px; 
-    color: white;
+    color: rgb(0, 0, 0);
     gap: 10px;
 
 }
